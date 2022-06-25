@@ -119,6 +119,7 @@ body.dark.theme-Rtmaterial tr.priority-highest td.priority {
     border-color: #29B6F6;
 }
 
-body.dark.theme-Rtmaterial tr.overdue td:first-child, #my-page tr.overdue td.id {
+body.dark.theme-Rtmaterial tr.overdue td:first-child, 
+body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     border-left: 3px solid #29B6F6 !important;
 }
