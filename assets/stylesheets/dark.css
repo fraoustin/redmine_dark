@@ -1,0 +1,124 @@
+#dark {
+    float: right;
+    color: #fff;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+body.dark {
+    filter: invert(90%);
+}
+
+body.dark:not(.theme-Rtmaterial) .icon{
+    filter: invert(100%);
+    color: #555 !important;
+}
+
+body.dark .badge,
+body.dark img.gravatar,
+body.dark .wiki img,
+body.dark table.indicator.summary,
+body.dark canvas.chartjs-render-monitor {
+    filter: invert(100%);
+}
+
+body.dark table.list tr.overdue td.due_date,
+body.dark div.issue.overdue .due-date .value {
+    filter: invert(100%);
+    color: lightcoral;
+}
+
+body.dark #sidebar a.selected {
+    background-color: unset !important;
+}
+
+body.dark #header, body.dark #top-menu {
+    color: #555 !important;
+    background-color: white !important;
+}
+
+body.dark #header a, body.dark #top-menu a,
+body.dark #content h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6,
+body.dark .wiki a, body.dark .wiki a:link, body.dark .wiki a:visited, body.dark #main a.user {
+    color: #555 !important;
+}
+
+body.dark input[type="submit"], 
+body.dark div.flash.notice,
+body.dark table.list:not(.odd-even) tbody tr:nth-child(odd):hover,
+body.dark .odd:hover,
+body.dark #issue-changesets div.changeset:nth-child(odd):hover,
+body.dark table.list:not(.odd-even) tbody tr:nth-child(even):hover,
+body.dark .even:hover,
+body.dark #issue-changesets div.changeset:nth-child(even):hover,
+body.dark #main-menu .menu-children li a:hover,
+body.dark .pagination ul.pages li.page:hover {
+    background-color: darkgrey;
+}
+
+body.dark , 
+body.dark #main-menu, 
+body.dark #main-menu li a, 
+body.dark #main-menu li a.selected, 
+body.dark #main-menu li a:hover, 
+body.dark .nodata, 
+body.dark .warning, 
+body.dark #errorExplanation, 
+body.dark #flash_error, 
+body.dark a, 
+body.dark a:link, 
+body.dark a:visited, 
+body.dark a:hover, 
+body.dark a:focus, 
+body.dark div.flash.notice, 
+body.dark #main-menu .menu-children li a:hover {
+    color: rgb(17,17,17);
+}
+
+body.dark #main-menu, 
+body.dark #main-menu li a.selected, 
+body.dark #main-menu li a:hover, 
+body.dark #main-menu li a.new-object {
+    background: white;
+}
+
+body.dark #main-menu li a.selected, 
+body.dark #content .tabs ul li a.selected, 
+body.dark input[type="submit"], 
+body.dark input[type="submit"]:hover, 
+body.dark div.flash.notice, 
+body.dark .ui-widget-header, 
+body.dark #main-menu .menu-children {
+    border-color: #78909c !important;
+}
+
+body.dark .pagination ul.pages li:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+body.dark .pagination ul.pages li {
+    border: 1px solid #ddd;
+}
+
+body.dark .pagination ul.pages li.current {
+    color: white;
+    background-color: #ddd ;
+    border-color: #ddd;
+}
+
+body.dark.theme-Rtmaterial tr.priority-default td.priority {
+    border-color: #AB47BC;
+}
+
+body.dark.theme-Rtmaterial tr.priority-lowest td.priority {
+    border-color: #F57F17; 
+}
+
+body.dark.theme-Rtmaterial tr.priority-highest td.priority {
+    border-color: #29B6F6;
+}
+
+body.dark.theme-Rtmaterial tr.overdue td:first-child, #my-page tr.overdue td.id {
+    border-left: 3px solid #29B6F6 !important;
+}
