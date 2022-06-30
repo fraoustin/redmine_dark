@@ -27,10 +27,12 @@ function getCookieName() {
 function clickdarkmode() {
     if (document.body.classList.contains('dark')) {
         document.body.classList.remove('dark');
+        document.getElementsByTagName("html")[0].classList.remove('dark');
         setCookie(getCookieName(), "off", 30);
         console.log("dark mode off");
     } else {
         document.body.classList.add('dark');
+        document.getElementsByTagName("html")[0].classList.add('dark');
         setCookie(getCookieName(), "on", 30);
         console.log("dark mode on");
     }

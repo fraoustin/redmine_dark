@@ -5,6 +5,10 @@
     font-weight: bold;
 }
 
+html.dark {
+    background-color: #191919;
+}
+
 body.dark {
     filter: invert(90%);
 }
