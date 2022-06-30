@@ -5,10 +5,6 @@
     font-weight: bold;
 }
 
-html.has(body.dark) {
-    background-color: #191919;
-}
-
 body.dark {
     filter: invert(90%);
 }
