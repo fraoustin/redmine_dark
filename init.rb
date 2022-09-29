@@ -42,7 +42,7 @@ Redmine::Plugin.register :redmine_dark do
     name 'Dark Mode'
     author 'fraoustin'
     description 'Adds dark mode theme'
-    version '1.0.0'
+    version '1.0.2'
     url 'https://github.com/fraoustin/redmine_dark'
     author_url 'https://github.com/fraoustin'
     requires_redmine :version_or_higher => '2.0.0'
