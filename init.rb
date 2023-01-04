@@ -17,13 +17,14 @@
 
 
 def init_redmine_dark
-    Dir::foreach(File.join(File.dirname(__FILE__), 'lib')) do |file|
-        next unless /\.rb$/ =~ file
-        require_dependency file
-    end
+  require_dependency Rails.root + "plugins/redmine_dark/lib/dark_application_hooks.rb"
 end
 
-if Rails::VERSION::MAJOR >= 5
+if Rails::VERSION::MAJOR >= 6
+  Rails.application.config.after_initialize do
+    init_redmine_dark
+  end
+elsif Rails::VERSION::MAJOR >= 5
   ActiveSupport::Reloader.to_prepare do
     init_redmine_dark
   end
