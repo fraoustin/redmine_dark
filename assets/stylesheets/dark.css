@@ -41,6 +41,26 @@ body.dark #header, body.dark #top-menu {
     background-color: white !important;
 }
 
+body.dark #header, 
+body.dark #top-menu, 
+body.dark #login-form, 
+body.dark .nodata {
+    background: unset !important;
+}
+
+body.dark #login-form  {
+    border: unset !important;
+}
+
+body.dark svg.icon-svg {
+    stroke: #555 !important;
+}
+
+body.dark input {
+    accent-color: #555 !important;
+}
+
+
 body.dark #header a, body.dark #top-menu a,
 body.dark #content h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6,
 body.dark .wiki a, body.dark .wiki a:link, body.dark .wiki a:visited, body.dark #main a.user {
