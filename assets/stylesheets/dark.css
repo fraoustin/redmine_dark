@@ -259,7 +259,8 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         border-color: #ddd;
     }
 
-    body select option {
+    body select option,
+    body select optgroup {
         color: #ccc;
         background-color: #191919;
     }
