@@ -195,11 +195,11 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         color: #555 !important;
     }
     
-    a.issue,
-    a.issue:link,
-    a.issue:visited,
-    div.wiki .wiki-page,
-    div.wiki .external {
+    body a.issue,
+    body a.issue:link,
+    body a.issue:visited,
+    body div.wiki .wiki-page,
+    body div.wiki .external {
         color: #205D86;
     }
     
