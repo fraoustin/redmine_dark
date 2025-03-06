@@ -191,8 +191,16 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     
     body #header a, body #top-menu a,
     body #content h1, body h2, body h3, body h4, body h5, body h6,
-    body .wiki a, body .wiki a:link, body .wiki a:visited, body #main a.user {
+    body #main a.user {
         color: #555 !important;
+    }
+    
+    a.issue,
+    a.issue:link,
+    a.issue:visited,
+    div.wiki .wiki-page,
+    div.wiki .external {
+        color: #205D86;
     }
     
     body input[type="submit"], 
@@ -259,8 +267,7 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         border-color: #ddd;
     }
 
-    body select option,
-    body select optgroup {
+    body select option {
         color: #ccc;
         background-color: #191919;
     }
