@@ -14,7 +14,11 @@ with a Dockerfile
    RUN git clone https://github.com/fraoustin/redmine_dark.git
    WORKDIR /usr/src/redmine/
 ```
- 
+if you have a problem, you can test this
+
+```
+RAILS_ENV=production bundle exec rake assets:precompile
+```
 
 ## Usage
 
