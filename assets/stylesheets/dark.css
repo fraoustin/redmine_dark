@@ -273,12 +273,12 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         background-color: #191919;
     }
 
-    body #activity .issue-note a,
-    body #activity .wiki-page a,
     body #activity .issue a,
-    body #activity .news a,
+    body #activity .issue-note a,
     body #activity .issue-edit a,
     body #activity .issue-closed a,
+    body #activity .wiki-page a,
+    body #activity .news a,
     body #activity .attachment a,
     body #search-results dt a {
         color: #ccc;
