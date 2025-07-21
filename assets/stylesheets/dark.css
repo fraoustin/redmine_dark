@@ -252,7 +252,15 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     body #main-menu .menu-children {
         border-color: #78909c !important;
     }
-    
+
+    body input[type="date"] {
+        color-scheme: dark;
+    }
+
+    body input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(100%);
+    }
+
     body .pagination ul.pages li:first-child {
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
