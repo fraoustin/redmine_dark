@@ -171,6 +171,7 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     body img.gravatar,
     body .wiki img,
     body table.indicator.summary,
+    body .attachments .images img,
     body canvas.chartjs-render-monitor {
         filter: invert(100%);
     }
