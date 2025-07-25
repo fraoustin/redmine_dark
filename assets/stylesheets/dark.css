@@ -167,6 +167,10 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         color: #555 !important;
     }
     
+    body .flyout-menu {
+        background-color: #ccc
+    }
+    
     body .badge,
     body img.gravatar,
     body .wiki img,
