@@ -186,9 +186,11 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         color: #000;
     }
     
-    body #header, body #top-menu {
-        color: #555 !important;
-        background-color: white !important;
+    body #header,
+    body #top-menu,
+    body #project-jump .drdn-trigger {
+        color: #555;
+        background-color: white;
     }
 
     body .diff_out,
