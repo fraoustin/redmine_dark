@@ -170,6 +170,7 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     body .badge,
     body img.gravatar,
     body .wiki img,
+    body img.filecontent.image,
     body table.indicator.summary,
     body canvas.chartjs-render-monitor {
         filter: invert(100%);
