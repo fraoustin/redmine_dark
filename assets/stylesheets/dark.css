@@ -190,6 +190,11 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         color: #555 !important;
         background-color: white !important;
     }
+
+    body .diff_out,
+    body .diff_in {
+        filter: invert(1);
+    }
     
     body #header a, body #top-menu a,
     body #content h1, body h2, body h3, body h4, body h5, body h6,
