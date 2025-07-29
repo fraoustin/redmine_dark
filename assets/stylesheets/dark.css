@@ -204,6 +204,10 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     body div.wiki .external {
         color: #205D86;
     }
+
+    body .highlight {
+        color: #000;
+    }
     
     body input[type="submit"], 
     body div.flash.notice,
