@@ -272,7 +272,18 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         color: #ccc;
         background-color: #191919;
     }
-    
+
+    body #activity .issue a,
+    body #activity .issue-note a,
+    body #activity .issue-edit a,
+    body #activity .issue-closed a,
+    body #activity .wiki-page a,
+    body #activity .news a,
+    body #activity .attachment a,
+    body #search-results dt a {
+        color: #ccc;
+    }
+
     body.theme-Rtmaterial tr.priority-default td.priority {
         border-color: #AB47BC;
     }
