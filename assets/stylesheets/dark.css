@@ -199,9 +199,12 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
     }
     
     body #header a, body #top-menu a,
-    body #content h1, body h2, body h3, body h4, body h5, body h6,
-    body #main a.user {
+    body #content h1, body h2, body h3, body h4, body h5, body h6 {
         color: #555 !important;
+    }
+    
+    body #main a.user {
+	      color: #205D86;
     }
     
     body a.issue,
