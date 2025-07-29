@@ -37,3 +37,13 @@ with RTmaterial Theme, redmine_indicator plugin
 ## License
 
 This plugin is released under the GPLv2.
+
+## Authors
+
+Frédéric Aoustin
+
+Main contributors:
+
+- Ilia Lenskii
+
+
